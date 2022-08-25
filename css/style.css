@@ -26,12 +26,12 @@ background: rgba(0,0,0,0.2); /* 0.2 -> 20% 투명도 */
 }
 /* logo */
 
-#wrap header .innerHeader h1.logo {width: 20%;}
+#wrap header .innerHeader h1.logo {width: 20%;}  /* 수정 */
 #wrap header .innerHeader h1.logo img {margin-top: 25px;}
 
 /* gnb - 중앙메뉴 */
 
-#wrap header .innerHeader .gnb {width: 40%;}
+#wrap header .innerHeader .gnb {width: 45%;} /* 수정 */
 #wrap header .innerHeader .gnb ul li {float: left; margin-right: 80px;}
 #wrap header .innerHeader .gnb ul li a{display: block; 
     font-size: 16px; color: #fff; text-align: center;}
@@ -40,11 +40,11 @@ background: rgba(0,0,0,0.2); /* 0.2 -> 20% 투명도 */
 
 /* tnb - 오른쪽메뉴 */
 #wrap header .innerHeader .tnb {
-    width: 40%; 
+    width: 35%;  /* 수정 */
 }
-#wrap header .innerHeader .tnb ul li {float: left;
-margin-right: 25px;
-}
+#wrap header .innerHeader .tnb ul { 
+    display: flex; justify-content: space-between;} /* 추가 */
+/* #wrap header .innerHeader .tnb ul li {} */
 #wrap header .innerHeader .tnb ul li a{
     display: block; font-size: 16px;
     color: #fff; text-align: center;
