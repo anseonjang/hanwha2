@@ -22,15 +22,16 @@ background: rgba(0,0,0,0.2); /* 0.2 -> 20% 투명도 */
 
 #wrap header .innerHeader {
     width: 1400px; height: 100%; margin: 0 auto;
+    display: flex; justify-content: space-between;
 }
 /* logo */
 
-#wrap header .innerHeader h1.logo {float: left;}
+#wrap header .innerHeader h1.logo {width: 20%;}
 #wrap header .innerHeader h1.logo img {margin-top: 25px;}
 
 /* gnb - 중앙메뉴 */
 
-#wrap header .innerHeader .gnb {float: left; margin-left: 120px;}
+#wrap header .innerHeader .gnb {width: 40%;}
 #wrap header .innerHeader .gnb ul li {float: left; margin-right: 80px;}
 #wrap header .innerHeader .gnb ul li a{display: block; 
     font-size: 16px; color: #fff; text-align: center;}
@@ -39,7 +40,7 @@ background: rgba(0,0,0,0.2); /* 0.2 -> 20% 투명도 */
 
 /* tnb - 오른쪽메뉴 */
 #wrap header .innerHeader .tnb {
-    float: right; margin-right: -24px;
+    width: 40%; 
 }
 #wrap header .innerHeader .tnb ul li {float: left;
 margin-right: 25px;
