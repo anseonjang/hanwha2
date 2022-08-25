@@ -459,8 +459,8 @@ width: 100%; height: 100px;
 
    #wrap footer .footerInner .blogo {float: left; margin-top: 10px;}
 
-   #wrap footer .footerInner .copyright {float: left; margin: 10px 0 0 100px;}
-   #wrap footer .footerInner .copyright p {color: #666;}
+   #wrap footer .footerInner .copyright {float: left; margin: 10px 0 0 200px;}
+   #wrap footer .footerInner .copyright p {color: #666; text-align: center;}
    #wrap footer .footerInner .copyright p a {color: #ff8342;}
    #wrap footer .footerInner .copyright p a:hover {color: #999;}
        
