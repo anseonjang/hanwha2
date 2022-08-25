@@ -31,7 +31,7 @@ background: rgba(0,0,0,0.2); /* 0.2 -> 20% 투명도 */
 
 /* gnb - 중앙메뉴 */
 
-#wrap header .innerHeader .gnb {width: 43%;} /* 수정 */
+#wrap header .innerHeader .gnb {width: 41%;} /* 수정 */
 #wrap header .innerHeader .gnb ul li {float: left; margin-right: 80px;}
 #wrap header .innerHeader .gnb ul li a{display: block; 
     font-size: 16px; color: #fff; text-align: center;}
@@ -40,7 +40,7 @@ background: rgba(0,0,0,0.2); /* 0.2 -> 20% 투명도 */
 
 /* tnb - 오른쪽메뉴 */
 #wrap header .innerHeader .tnb {
-    width: 37%;  /* 수정 */
+    width: 39%;  /* 수정 */
 }
 #wrap header .innerHeader .tnb ul { 
     display: flex; justify-content: space-between;} /* 추가 */
